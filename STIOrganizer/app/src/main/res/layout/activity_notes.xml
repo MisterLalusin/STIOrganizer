@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NotesActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/white">
+
+            <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@raw/ic_back"
+                    android:layout_marginStart="20dp"
+                    android:tint="#3880d7"
+                    android:padding="16dp"
+                    android:id="@+id/backMGVW"/>
+
+            <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:src="@raw/text_notes"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="-2dp"
+                    android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2c74ca"></LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/addViewLNRLYT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
